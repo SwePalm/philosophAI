@@ -2,11 +2,12 @@ import json
 import os
 from pathlib import Path
 
-def load_legacy_queries(base_path: Path):
+def load_legacy_queries():
     queries = {}
     teams = ["daily", "weekly", "long_term", "on_demand"]
+    base_path = Path("data/legacy_queries")
     for team in teams:
-        query_file = base_path / "the_teams" / f"{team}_queries.json"
+        query_file = base_path / f"{team}_queries.json"
         if query_file.exists():
             with open(query_file, 'r') as f:
                 queries[team] = json.load(f)
@@ -16,8 +17,7 @@ def run_evaluation_dry_run():
     """
     Simulates the evaluation by matching legacy query categories to new skills/modes.
     """
-    legacy_root = Path("../") # Assuming evaluate.py is in PhilosophAI_2.0/
-    queries = load_legacy_queries(legacy_root)
+    queries = load_legacy_queries()
     
     print("=== PhilosophAI 2.0 Evaluation Report (Dry Run) ===")
     print(f"Loaded {sum(len(v) for v in queries.values())} legacy queries.\n")
