@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# IDEs and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Local Data
+data/
+*.log
+
+# Jupyter
+.ipynb_checkpoints
