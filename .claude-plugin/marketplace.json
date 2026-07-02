@@ -1,0 +1,20 @@
+{
+  "name": "swepalm",
+  "owner": {
+    "name": "Stefan Palm"
+  },
+  "description": "Plugins by Stefan Palm",
+  "plugins": [
+    {
+      "name": "philosophai",
+      "source": "./",
+      "description": "A personal philosophical companion: 17 philosophers, one router, and a journal that remembers.",
+      "version": "3.0.0",
+      "author": {
+        "name": "Stefan Palm"
+      },
+      "category": "productivity",
+      "tags": ["philosophy", "journaling", "reflection", "coaching"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "philosophai",
+  "description": "A personal philosophical companion: 17 philosophers, one router, and a journal that remembers. Daily check-ins, weekly reviews, and on-demand counsel through the lens that fits.",
+  "version": "3.0.0",
+  "author": {
+    "name": "Stefan Palm"
+  },
+  "homepage": "https://github.com/SwePalm/philosophAI",
+  "repository": "https://github.com/SwePalm/philosophAI",
+  "license": "MIT",
+  "keywords": ["philosophy", "journaling", "reflection", "stoicism", "coaching"]
+}
