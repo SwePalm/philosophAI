@@ -1,5 +1,7 @@
 # PhilosophAI
 
+![PhilosophAI — a council of philosophers gathered around one routing core](assets/banner.jpg)
+
 **A personal philosophical companion for Claude: 17 philosophers, one router, and a journal that remembers.**
 
 Daily check-ins, weekly reviews, and on-demand counsel — each session routed to the philosopher whose method actually fits the moment. Stressed about things you can't control? Seneca. Paralyzed by a big decision? Kierkegaard. Forcing an outcome that won't come? Lao Tzu. Everything you reflect on is distilled into a local markdown journal, so the companion gets to know you over time.
